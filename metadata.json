@@ -1,0 +1,7 @@
+{
+  "name": "3dux",
+  "description": "A high-performance interactive 3D scene using Three.js and MediaPipe. Features off-axis projection based on head tracking and hand tension particle control.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=3dux Kiosk
+Comment=Launch 3dux app in Chromium kiosk mode
+Exec=/bin/bash -c '/opt/3dux/disable-sleep.sh; exec chromium-browser --kiosk "file:///opt/3dux/index.html" --no-first-run --disable-infobars --autoplay-policy=no-user-gesture-required'
+Terminal=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Phase=Application
